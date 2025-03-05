@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.12.3 on linux)" generated="2025-03-04T04:23:25.281039" rpa="false" schemaversion="5">
+<suite id="s1" name="Robocon25-Tutorial-Templates" source="/home/mko/ROBOCON25/robocon25-tutorial-templates">
+<suite id="s1-s1" name="Part 1" source="/home/mko/ROBOCON25/robocon25-tutorial-templates/part_1">
+<suite id="s1-s1-s1" name="Template User Keyword" source="/home/mko/ROBOCON25/robocon25-tutorial-templates/part_1/template_user_keyword.robot">
+<test id="s1-s1-s1-t1" name="Templated Test Case With User Keyword" line="12">
+<kw name="Should Contain At Least Twice">
+<kw name="Get Count" owner="BuiltIn">
+<msg time="2025-03-04T04:23:25.295991" level="INFO">Item found from container 2 times.</msg>
+<msg time="2025-03-04T04:23:25.296100" level="INFO">${count} = 2</msg>
+<var>${count}</var>
+<arg>${string}</arg>
+<arg>${character}</arg>
+<doc>Returns and logs how many times ``item`` is found from ``container``.</doc>
+<status status="PASS" start="2025-03-04T04:23:25.295789" elapsed="0.000363"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${count}&gt;=2</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2025-03-04T04:23:25.296258" elapsed="0.000308"/>
+</kw>
+<arg>Hello</arg>
+<arg>l</arg>
+<doc>Counts given character in word. Fails if not 2.</doc>
+<status status="PASS" start="2025-03-04T04:23:25.295364" elapsed="0.001277"/>
+</kw>
+<kw name="Should Contain At Least Twice">
+<kw name="Get Count" owner="BuiltIn">
+<msg time="2025-03-04T04:23:25.297132" level="INFO">Item found from container 2 times.</msg>
+<msg time="2025-03-04T04:23:25.297220" level="INFO">${count} = 2</msg>
+<var>${count}</var>
+<arg>${string}</arg>
+<arg>${character}</arg>
+<doc>Returns and logs how many times ``item`` is found from ``container``.</doc>
+<status status="PASS" start="2025-03-04T04:23:25.297014" elapsed="0.000245"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${count}&gt;=2</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2025-03-04T04:23:25.297330" elapsed="0.000169"/>
+</kw>
+<arg>Robot Framework</arg>
+<arg>r</arg>
+<doc>Counts given character in word. Fails if not 2.</doc>
+<status status="PASS" start="2025-03-04T04:23:25.296829" elapsed="0.000730"/>
+</kw>
+<kw name="Should Contain At Least Twice">
+<kw name="Get Count" owner="BuiltIn">
+<msg time="2025-03-04T04:23:25.298071" level="INFO">Item found from container 2 times.</msg>
+<msg time="2025-03-04T04:23:25.298150" level="INFO">${count} = 2</msg>
+<var>${count}</var>
+<arg>${string}</arg>
+<arg>${character}</arg>
+<doc>Returns and logs how many times ``item`` is found from ``container``.</doc>
+<status status="PASS" start="2025-03-04T04:23:25.297949" elapsed="0.000251"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${count}&gt;=2</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2025-03-04T04:23:25.298290" elapsed="0.000246"/>
+</kw>
+<arg>4282</arg>
+<arg>2</arg>
+<doc>Counts given character in word. Fails if not 2.</doc>
+<status status="PASS" start="2025-03-04T04:23:25.297761" elapsed="0.000834"/>
+</kw>
+<kw name="Should Contain At Least Twice">
+<kw name="Get Count" owner="BuiltIn">
+<msg time="2025-03-04T04:23:25.299138" level="INFO">Item found from container 3 times.</msg>
+<msg time="2025-03-04T04:23:25.299267" level="INFO">${count} = 3</msg>
+<var>${count}</var>
+<arg>${string}</arg>
+<arg>${character}</arg>
+<doc>Returns and logs how many times ``item`` is found from ``container``.</doc>
+<status status="PASS" start="2025-03-04T04:23:25.299020" elapsed="0.000287"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${count}&gt;=2</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2025-03-04T04:23:25.299375" elapsed="0.000221"/>
+</kw>
+<arg>Robocon</arg>
+<arg>o</arg>
+<doc>Counts given character in word. Fails if not 2.</doc>
+<status status="PASS" start="2025-03-04T04:23:25.298809" elapsed="0.000844"/>
+</kw>
+<status status="PASS" start="2025-03-04T04:23:25.294785" elapsed="0.005035"/>
+</test>
+<doc>Template from user keyword</doc>
+<status status="PASS" start="2025-03-04T04:23:25.293853" elapsed="0.006368"/>
+</suite>
+<status status="PASS" start="2025-03-04T04:23:25.292795" elapsed="0.007918"/>
+</suite>
+<status status="PASS" start="2025-03-04T04:23:25.282869" elapsed="0.018249"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Robocon25-Tutorial-Templates" id="s1" pass="1" fail="0" skip="0">Robocon25-Tutorial-Templates</stat>
+<stat name="Part 1" id="s1-s1" pass="1" fail="0" skip="0">Robocon25-Tutorial-Templates.Part 1</stat>
+<stat name="Template User Keyword" id="s1-s1-s1" pass="1" fail="0" skip="0">Robocon25-Tutorial-Templates.Part 1.Template User Keyword</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
