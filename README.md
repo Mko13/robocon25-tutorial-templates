@@ -6,7 +6,7 @@ This repository contains material covered during the tutorial at **RoboCon2025**
 
 ## Setup
 
-- Visual Studio Code (VS Code) + extensions:
+- Visual Studio Code (VS Code) + extensions
   - RobotCode
   - Python
 - **Robot Framework 7.2** + **DataDriver Library**
