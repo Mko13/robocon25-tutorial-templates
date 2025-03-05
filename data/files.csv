@@ -1,0 +1,7 @@
+***Test Cases***;${file};${max_size};[Tags];[Documentation]
+Log size;log.html;1000000;log;Check logfile size
+Report size;report.html;2000000;report;Check reportfile size
+Output size;output.xml;300000;output;Check outputfile size
+;log.html;1000000;log;Check logfile size
+;report.html;2000000;report;Check reportfile size
+;output.xml;300000;output;Check outputfile size
