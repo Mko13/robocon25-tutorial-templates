@@ -19,5 +19,5 @@ Templated Test Case With Embedded Args
 *** Keywords ***
 Joining "${start}" And "${end}" Should Give Us "${word}"
     [Documentation]    Joins two strings and compares to the expected result.
-    ${result}    Catenate    SEPARATOR=    ${start}    ${end}
+    ${result} =    Catenate    SEPARATOR=    ${start}    ${end}
     Should Be Equal    ${result}    ${word}

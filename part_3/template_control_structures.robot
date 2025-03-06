@@ -129,14 +129,14 @@ File Size Should Not Exceed
     [Documentation]    Checks given file size. Fails if exceeds max.
     [Arguments]    ${file}    ${max_size}
     [Setup]    Log    This is iteration setup
-    ${size}=    Get File Size    data/${file}
-    Should Be True    ${size }< ${max_size}
+    ${size} =    Get File Size    data/${file}
+    Should Be True    ${size} < ${max_size}
     [Teardown]    Log    This is iteration teardown
 
 Verify File Size And Rename
     [Documentation]    Checks given file size. Renames if size is ok.
     [Arguments]    ${file}    ${max_size}    ${rename}
-    ${size}=    Get File Size    data/${file}
+    ${size} =    Get File Size    data/${file}
     Should Be True    ${size} < ${max_size}
     Copy File    data/${file}    checked/${rename}
 

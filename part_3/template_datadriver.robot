@@ -21,6 +21,6 @@ File Size Should Not Exceed
     [Documentation]    Checks given file size. Fails if exceeds max.
     [Arguments]    ${file}    ${max_size}
     [Setup]    Log    This Is Iteration Setup
-    ${size}=    Get File Size    data/${file}
-    Should Be True    ${size}<${max_size}
+    ${size} =    Get File Size    data/${file}
+    Should Be True    ${size} < ${max_size}
     [Teardown]    Log    This Is Iteration Teardown

@@ -10,9 +10,9 @@ Documentation       Handling test case failures using reserved tags.
 Library             OperatingSystem
 
 Suite Setup         Log    This is suite setup
-Suite Teardown      Log    This Is suite teardown
+Suite Teardown      Log    This is suite teardown
 Test Setup          Log    This is test setup
-Test Teardown       Log    This Is test teardown
+Test Teardown       Log    This is test teardown
 
 Test Template       File Size Should Not Exceed
 
@@ -39,7 +39,7 @@ File Size Should Not Exceed
     [Documentation]    Checks given file size. Fails if exceeds max.
     [Arguments]    ${file}    ${max_size}
     [Setup]    Log    This is iteration setup
-    ${size}=    Get File Size    data/${file}
+    ${size} =    Get File Size    data/${file}
     Should Be True    ${size} < ${max_size}
     [Teardown]    Log    This is iteration teardown
 
