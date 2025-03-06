@@ -21,5 +21,5 @@ Should Contain At Least Twice
     [Documentation]    Counts given character in word. Fails if not 2.
     [Arguments]    ${string}    ${character}
     Log    ${string}, ${character}
-    ${count}=    Get Count    ${string}    ${character}
+    ${count} =    Get Count    ${string}    ${character}
     Should Be True    ${count} >= 2

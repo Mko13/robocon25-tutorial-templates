@@ -24,5 +24,5 @@ Should Contain Given Times
     [Documentation]    Counts given character in word. Fails if not 2.
     [Arguments]    ${string}=evening    ${character}=n   ${expected}=2
     Log    ${string}, ${character}, ${expected}
-    ${count}=    Get Count    ${string}    ${character}
+    ${count} =    Get Count    ${string}    ${character}
     Should Be Equal As Integers    ${count}    ${expected}
